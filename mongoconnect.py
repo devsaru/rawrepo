@@ -2,7 +2,7 @@ from flask import Flask,json,request,render_template,redirect
 from pymongo import MongoClient
 
 app = Flask(__name__)
-mongo_uri = "mongodb+srv://saru2421:Saru@itsdatabase.rpqtb05.mongodb.net/?retryWrites=true&w=majority&appName=itsdatabase"
+mongo_uri = ""
 client = MongoClient(mongo_uri)
 
 db = client['Session-DB']
